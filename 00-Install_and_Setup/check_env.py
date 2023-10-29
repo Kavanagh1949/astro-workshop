@@ -11,7 +11,6 @@ from packaging.version import Version
 # NOTE: Update minversion values as needed.
 # This should match environment.yml file.
 PKGS = {'IPython': '7.2',
-        'cython': None,
         'jupyter': None,
         'notebook': '6.0',
         'numpy': '1.16',
@@ -26,14 +25,15 @@ PKGS = {'IPython': '7.2',
         'xlrd': None,
         'requests': None,
         'jupyterlab': None,
-        'nbgitpuller': None,
-        'astropy': '4.2',
+        'astropy': '5.3',
         'asdf': None,
         'gwcs': '0.16',
         'ccdproc': '2.0',
         'photutils': '1.3.0',
         'specutils': '1.1.1',
         'astroquery': '0.4.1',
+        'stellarphot': None,
+        'astrowidgets': None,
         'openpyxl': None}
 
 
