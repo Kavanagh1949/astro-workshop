@@ -67,6 +67,10 @@ If you already use `git`, you can clone the workshop repository instead using
 
     % git clone https://github.com/mwcraig/astropy-workshop
 
+After you clone the repository be sure to check out the branch for this workshop:
+
+    % git checkout -b aavso-2023  origin/aavso-2023
+
 ### 4. Create a mamba environment for the workshop
 
 *miniforge includes an environment manager called mamba. Environments
@@ -171,7 +175,7 @@ The brief instructions for creating a virtual environment with pip/venv are:
 virtual environment in, then:
 
 ```
-% python -m python -m venv astropy-env-aavso   # This will create the venv in the current folder
+% python -m venv astropy-env-aavso   # This will create the venv in the current folder
 % source astropy-env-aavso/bin/activate
 ```
 
