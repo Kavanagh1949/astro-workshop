@@ -9,6 +9,10 @@ For the commands shown, `%` (and anything to the left of it) represents the
 terminal prompt. You do not need to copy it; instead only copy the command to the
 right of `%`.
 
+## Updates to materials will be made through Thursday afternoon
+
+Please plan to download workshop materials Thursday ecvening after 5PM EDT or Friday morning. The required Python environment will **not** change. You can (and should) set that up now.
+
 ## If you want to use a conda-based python and do not have it instaleld
 
 The recommended distribution, because it is small and works out of the box on newer M1 macs, is `miniforge`.
@@ -163,7 +167,9 @@ notebook subdirectories.
 
 ## Alternate Installation Methods
 
-Although we recommend Mambaforge, you can use either the [conda package
+### Use `pip`/`venv`
+
+Although we recommend Miniforge, you can use either the [conda package
 manager](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 with the `environment.yml` file,  or
 [pip/venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
@@ -187,6 +193,18 @@ virtual environment in, then:
 ```
 
 After that, check your installation as described above.
+
+### Use your base Python installation (the [YOLO](https://en.wikipedia.org/wiki/YOLO_(aphorism)) option)
+
+After downloading the materials, install everything needed for the workshop with:
+
+```
+% cd astropy-workshop/00-Install_and_Setup/
+% pip install -r requirements.txt
+```
+
+You run the risk of this breaking your base environment...
+
 
 ## Additional Resources
 
