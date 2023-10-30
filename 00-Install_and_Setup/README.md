@@ -9,9 +9,7 @@ For the commands shown, `%` (and anything to the left of it) represents the
 terminal prompt. You do not need to copy it; instead only copy the command to the
 right of `%`.
 
-## `conda`/`mamba` users
-
-### 0. Install a conda-based python
+## If you want to use a conda-based python and do not have it instaleld
 
 The recommended distribution, because it is small and works out of the box on newer M1 macs, is `miniforge`.
 
@@ -23,6 +21,8 @@ https://github.com/conda-forge/miniforge#install
 If you prefer, you can install the Anaconda Python Distribution, but it will include a bunch of things you don't need for this workshop.
 
 
+## `conda`/`mamba` users
+
 ### 1. Install `mamba` (optional)
 
 If you regularly use `conda` we recommend that you install `mamba` and use it instead of `conda`. `mamba` is a replacement for `conda` that typically runs faster.
@@ -33,7 +33,7 @@ Install mamba with:
 conda install -c conda-forge mamba
 ```
 
-## 2. Open the mamba command prompt
+### 2. Open the mamba command prompt
 
 *miniforge includes an environment manager called mamba. Environments
 allow you to have multiple sets of Python packages installed at the same
@@ -54,19 +54,9 @@ then run the initialization if needed, in that same terminal window:
 
     % mamba init $SHELL
 
-On Windows, look for the "Anaconda command prompt" or "Miniconda command prompt" under the start menu.
+On Windows, look for the "Anaconda prompt" or "Miniconda prompt" under the start menu.
 
-## 3. Install git (if needed)
-
-At the prompt opened in the previous step, enter this command to see whether git is already installed and accessible to this shell:
-
-    % git --version
-
-If the output shows a git version, proceed to the next step.  Otherwise install git by entering the following command and following the prompts:
-
-    % mamba install git
-
-## 5. Get the workshop materials: Download a ZIP file or clone the repository
+### 3. Get the workshop materials: Download a ZIP file or clone the repository
 
 You can download the ZIP file by opening the
 green *Code* button at
@@ -77,8 +67,7 @@ If you already use `git`, you can clone the workshop repository instead using
 
     % git clone https://github.com/mwcraig/astropy-workshop
 
-
-## 6. Create a mamba environment for the workshop
+### 4. Create a mamba environment for the workshop
 
 *miniforge includes an environment manager called mamba. Environments
 allow you to have multiple sets of Python packages installed at the same
@@ -105,7 +94,7 @@ And finally, on any platform, to install and activate the astropy-workshop envir
 
 Note, you will need mamba version 1.0.0 and conda version 22.9 and later. If you need to update your version use `mamba update mamba`.
 
-## 7. Check Installation
+### 5. Check Installation
 
 The name of the new mamba environment created above should be displayed next
 to the terminal prompt: `(astropy-env) %`
@@ -152,7 +141,7 @@ out-of-date, always update to its pre-release version with pip:
 
     (astropy-env) % pip install astroquery --pre --upgrade
 
-## 8. Starting Jupyter Lab
+### 6. Starting Jupyter Lab
 
 In the terminal window you used with the mamba environment created above,
 change directory to the top level `astropy_workshop` directory.
