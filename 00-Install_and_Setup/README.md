@@ -13,7 +13,7 @@ right of `%`.
 
 Please plan to download workshop materials Thursday ecvening after 5PM EDT or Friday morning. The required Python environment will **not** change. You can (and should) set that up now.
 
-## If you want to use a conda-based python and do not have it instaleld
+## If you want to use a conda-based python and do not have it installed
 
 The recommended distribution, because it is small and works out of the box on newer M1 macs, is `miniforge`.
 
@@ -98,7 +98,7 @@ following.
 And finally, on any platform, to install and activate the astropy-workshop environment, type:
 
     % mamba env create --file environment.yml
-    % mamba activate astropy-env-aavso
+    % mamba activate astropy-aavso-env
 
 Note, you will need mamba version 1.0.0 and conda version 22.9 and later. If you need to update your version use `mamba update mamba`.
 
