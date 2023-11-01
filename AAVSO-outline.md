@@ -11,21 +11,23 @@
 
 1. (0:00) Python overview and installation options
 2. (0:15) Getting your data into Python
-    1. Astropy tables (25 min)
-    2. Pandas dataframes → Astropy table (2 min)
-3. (0:30) Fundamental concepts
+    1. Astropy tables (20 min)
+    2. Pandas dataframes → Astropy table (5 min)
+3. (0:40) Fundamental concepts
     1. Times and Coordinates (20 min)
 4. (1:00) Break -- 5 min
-9. (2:30) Using external catalogs/web services (***)
-    1. Intro to astroquery (10 min)
+9. (1:05) Using external catalogs/web services
+    1. Intro to astroquery (5 min)
     2. Retrieving data from Vizier (15 min)
-6. (1:30) Plotting time series data
-    1. TimeSeries in astropy 
-    1. Intro (10 min) (****)
-    2. More complicated plots (20 min)
+    3. Matching catalogs (10 min)
+6. (1:35) Plotting time series data
+    1. Intro (20 min)
+    2. TimeSeries in astropy (5 min)
 7. (2:00) Break -- 10 min
-8. (2:10) More time series -- lightkurve
-
+8. (2:10) More time series
+    1. Folded light curves (10 min)
+    2. More complicated plots (20 min)
+9. (2:40) Catch-up/Q&A (20 min)
 10. (3:00) Lunch
 5. (1:05) Getting images into Python
     1. CCDData to read images (10 min)
