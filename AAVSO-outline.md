@@ -16,7 +16,7 @@
 3. (0:40) Fundamental concepts
     1. Times and Coordinates (20 min)
 4. (1:00) Break -- 5 min
-9. (1:05) Using external catalogs/web services
+5. (1:05) Using external catalogs/web services
     1. Intro to astroquery (5 min)
     2. Retrieving data from Vizier (15 min)
     3. Matching catalogs (10 min)
