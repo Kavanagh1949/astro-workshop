@@ -17,44 +17,29 @@ If your setup is not working at the workshop, we will have a cloud option for yo
 
 ## Schedule (workshop begins at 9:00AM EDT; all times below are EDT)
 
-1. (0:00) Python overview and installation options
-2. (0:10) Getting your data into Python
-    1. Astropy tables (25 min)
-    2. Pandas dataframes → Astropy table (5 min)
-3. (0:30) Fundamental concepts
-    1. Times and Coordinates (20 min)
-    1. Time series (10 min)
-4. (1:00) Break -- 5 min
-5. (1:05) Getting images into Python
-    1. CCDData to read images (10 min)
-    1. astrowidgets to display images interactively (10 min) (**)
-6. (1:30) Plotting time series data
-    1. Intro (10 min) (****)
-    2. More complicated plots (20 min)
-7. (2:00) Break -- 10 min
-8. (2:10) More time series -- lightkurve
-9. (2:30) Using external catalogs/web services (***)
-    1. Intro to astroquery (10 min)
-    2. Retrieving data from Vizier (15 min)
-    3. astrometry.net (5 min)
-10. (3:00) Lunch
-11. (4:00) Other catalogs/web services
-    1. Gaia/TESS/Kepler (15 min)
-12. (4:15) Photometry with photutils (****)
-    1. Detecting/centering sources (15 min)
-    1. Aperture photometry (20 min)
-    1. PSF photometry (10 min)
-13. (5:00) Break -- 5 min
-14. (5:05) Light curve analysis (***)
-    1. Periodograms with Astropy (20 min)
-    2. Periodograms with Pyriod (15 min) (maybe????)
-    3. Exoplanet light cures with EXOTIC (5 min)
-15. (5:45) Break -- 10 min
-16. (5:55) Higher-level options
-    1. ccdproc or reducer for calibrating data (15 min) (**)
-    2. stellarphot for photometry and some analysis (25 min)
-    3. Planning observations with astroplan (10 min)
-1. (6:45) Open time/questions
+| Time | Topic | Folder
+| ---- | ----- | ----- |
+| 9:00 | Intro | [01-IntroCoC](01-IntroCoc) |
+| 9:30 | Getting data into Python | [02-getting-data-in](02-getting-data-in) |
+| 9:55 | Q&A | |
+| 10:00 | Break (5 min) | |
+| 10:05 | Time and Coordinates | [03-Fundamental-concepts](03-Fundamental-concepts) |
+| 10:25 | Using external catalogs/web services | [04-astroquery](04-astroquery) |
+| 10:55 | Q&A | |
+| 11:00 | Break (10 min) | |
+| 11:10 | Plotting time series data | [05-Working-with-time-series](05-Working-with-time-series) |
+| 11:45 | Q & A | ||
+| 12:00 | Lunch (1 hour) | |
+| 1:00 | Getting images into Python | [06-Images](06-Images) |
+| 1:30 | Photometry with photutils | [07-Photometry](07-Photometry) |
+| 2:00 | Break (5 min) | | 
+| 2:05| Photometry with photutils (cont) | [07-Photometry](07-Photometry) |
+| 2:30 | Light curve analysis | [08-light-curve-analysis](08-light-curve-analysis) |
+| 2:50 | Q&A | |
+| 3:00 | Break (5 min) | |
+| 3:05 | Higher level options | |
+| 3:45 | Q & A | |
+| 4:00 | Done 😅 | |
 
 ### Presenter
 
